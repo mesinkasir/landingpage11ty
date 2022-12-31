@@ -1,7 +1,7 @@
 {
-  "name": "Program Restoran",
+  "name": "program restoran",
   "version": "2.1.2",
-  "description": "Blast fast eleventy 11ty with SEO",
+  "description": "blast fast eleventy with seo",
   "scripts": {
     "build": "eleventy",
     "watch": "eleventy --watch",
