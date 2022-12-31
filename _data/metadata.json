@@ -1,0 +1,22 @@
+{
+  "title": "Program Restoran",
+  "url": "https://programrestoran.axcora.com/",
+  "language": "id",
+  "description": "Software restoran aplikasi restoran untuk mesin kasir restoran cafe rumah makan desktop offline dan online integrasi website app terbaru.",
+  "cover": "/img/programrestoran.svg",
+  "feed": {
+    "subtitle": "Software restoran aplikasi restoran untuk mesin kasir restoran cafe rumah makan desktop offline dan online integrasi website app terbaru.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://programrestoran.axcora.com/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://programrestoran.axcora.com/"
+  },
+  "author": {
+    "name": "creativitas",
+    "email": "axcora@gmail.com",
+    "url": "https://www.fiverr.com/creativitas"
+  }
+}

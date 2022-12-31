@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="{{metadata.language}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% include "widgets/seo.njk" %}
+{% include "widgets/css.njk" %}
+</head>
+<body>
+{% include "widgets/nav.njk" %}
+<div class="container">
+<main class="row">
+{{ content | safe }}
+</main>
+{% include "widgets/footer.njk" %}
+</div>
+</body>
+</html>

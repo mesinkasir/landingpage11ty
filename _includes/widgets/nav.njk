@@ -1,0 +1,8 @@
+<header class="col-md-12 p-3 text-center">
+ <p><strong><a href="{{ '/' | url }}">{{ metadata.title }}</a></strong></p>
+ <nav class="nav justify-content-center">
+ {%- for entry in collections.all | eleventyNavigation %}
+ <a href="{{ entry.url | url }}" class="nav-link">{{ entry.title }}</a>
+ {%- endfor %}
+ </ul>
+ </header>

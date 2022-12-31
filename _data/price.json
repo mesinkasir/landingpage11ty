@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Server Desktop Offline",
+    "fitur": "Desktop Resto Cafe Software + Bantuan Installasi + Training + Settup + Support",
+    "price": "Rp.1.000.000/Device",
+    "link": "https://app.midtrans.com/payment-links/unipos-resto-server"
+  },
+  {
+    "name": "Client Desktop Offline",
+    "fitur": "Wajib memiliki server edition software ini hanya berjalan dengan server version + untuk divisi waiters + kasir + kitchen + Desktop Resto Cafe Software",
+    "price": "Rp.500.000/Device",
+    "link": "https://app.midtrans.com/payment-links/unipos-waiters-kitchen"
+  },
+  {
+    "name": "Premium WebApp",
+    "fitur": "Wajib memiliki desktop software untuk order layanan ini. Cloud Database + Backadmin Web app + CMS Website+ website dot com + QRCode menu digital + Android App",
+    "price": "Rp.3.264.800/Tahun",
+    "link": "https://app.midtrans.com/payment-links/unipos-cloud-pro"
+  },
+  {
+    "name": "Standard WebApp",
+    "fitur": "Wajib memiliki desktop software untuk order layanan ini. Cloud Database + Backadmin Web app + CMS Website+ website dot com",
+    "price": "Rp.1.564.800/Tahun",
+    "link": "https://app.midtrans.com/payment-links/unipos-resto-cloud-std"
+  }
+]

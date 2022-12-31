@@ -1,0 +1,7 @@
+<div class="row">
+{% for post in postslist | reverse %}
+  <div class="col-md-6">
+    <a href="{{ post.url | url }}"><p>{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</p></a>
+  </div>
+{% endfor %}
+</div>

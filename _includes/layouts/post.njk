@@ -1,0 +1,35 @@
+---
+layout: layouts/base.njk
+---
+<div class="col-md-8 p-3 p-md-5 head">
+<h1><strong><a href="{{page.url}}">{{ title }}</a></strong></h1>
+<h2>{{description}}</h2>
+<p>
+<!-- <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time> -->
+{%- for tag in tags | filterTagList -%}
+{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+<a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}&nbsp;</a>
+{%- endfor %}
+</p>
+
+<div class="ratio ratio-16x9 mt-3 mb-3">
+  <iframe src="https://www.youtube.com/embed/{{video}}" 
+  title="{{title}}" class="rounded" loading="lazy" allowfullscreen></iframe>
+</div>
+
+{{ content | safe }}
+
+{%- set nextPost = collections.posts | getNextCollectionItem(page) %}
+{%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+{%- if nextPost or previousPost %}
+<hr>
+<ul>
+  {%- if nextPost %}<li>Next: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+  {%- if previousPost %}<li>Previous: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+</ul>
+{%- endif %}
+</div>
+<div class="col-md-4 p-3 p-md-5 head">
+{% set postslist = collections.posts %}
+{% include "widgets/postlist.njk" %}
+</div>

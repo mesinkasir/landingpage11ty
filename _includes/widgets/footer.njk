@@ -1,0 +1,17 @@
+<footer class="col-md-12 p-3 p-md-5">
+<div class="p-3 p-md-5 grape rounded shadow-sm row">
+<h3 class="display-4 col-md-8 p-3 text-center"><a href="/" class="text-white">{{metadata.title}}</a></h3>
+<p class="col-md-2 col-6 p-3">
+Menu<br/>
+ {%- for entry in collections.all | eleventyNavigation %}
+ <a href="{{ entry.url | url }}" class="text-white ms-3"><small>{{ entry.title }}</small></a><br/>
+ {%- endfor %}
+</p>
+<p class="col-md-2 col-6 p-3">
+Contact<br/>
+{% for call in contact %}
+<a href="{{call.link}}" class="text-white ms-3"><small>{{call.menu}}</small></a><br/>
+{% endfor %}
+</p>
+</div>
+</footer>
