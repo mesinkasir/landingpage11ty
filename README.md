@@ -4,11 +4,11 @@ Free template eleventy 11ty landing page
 
 Demo [https://programrestoran.axcora.com/](https://programrestoran.axcora.com/)
 
-![landingpage11ty.png](eleventy landing page template)
+![eleventy landing page template](landingpage11ty.png)
 
 test peform
 
-![test.png](eleventy landing page template)
+![eleventy landing page template](test.png)
 
 Recepis :
 
