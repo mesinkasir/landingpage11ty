@@ -1,7 +1,7 @@
 {
   "name": "Landing Page 11ty",
   "version": "1.1.2",
-  "description": "blast fast eleventy landing page with seo",
+  "description": "Blast fast landing page seo website template",
   "scripts": {
     "build": "eleventy",
     "watch": "eleventy --watch",
@@ -9,12 +9,15 @@
     "start": "eleventy --serve",
     "debug": "DEBUG=* eleventy"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mesinkasir/landingpage11ty"
+  },
   "author": {
     "name": "creativitas",
     "email": "axcora@gmail.com",
     "url": "https://www.fiverr.com/creativitas"
   },
-  "homepage": "https://github.com",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0-canary.14",
     "@11ty/eleventy-navigation": "^0.3.3",
