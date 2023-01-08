@@ -4,6 +4,8 @@ Free template eleventy 11ty landing page
 
 Demo [https://programrestoran.axcora.com/](https://programrestoran.axcora.com/)
 
+Demo 2 : [https://lava.axcora.com/](https://lava.axcora.com/)
+
 Hire me : [https://www.fiverr.com/creativitas/design-your-modern-website-using-jekyll](https://www.fiverr.com/creativitas/design-your-modern-website-using-jekyll)
 
 -----------------------------
@@ -29,6 +31,8 @@ Recepis :
 - Creativitas
 
 Demo [https://programrestoran.axcora.com/](https://programrestoran.axcora.com/)
+
+Demo 2 : [https://lava.axcora.com/](https://lava.axcora.com/)
 
 
 Hire me : [https://www.fiverr.com/creativitas/design-your-modern-website-using-jekyll](https://www.fiverr.com/creativitas/design-your-modern-website-using-jekyll)
