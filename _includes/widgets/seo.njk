@@ -7,9 +7,10 @@
 <meta property="og:title" content="{{ title or metadata.title }}">
 <meta property="og:description" content="{{ description or metadata.description }}">
 <meta property="og:image" content="{{ cover or metadata.cover }}">
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="{{ cover or metadata.cover }}">
-<meta property="twitter:title" content="{{ title or metadata.title }}">
-<meta property="twitter:description" content="{{ description or metadata.description }}">
-<meta property="twitter:image" content="{{ cover or metadata.cover }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="{{ cover or metadata.cover }}">
+<meta name="twitter:title" content="{{ title or metadata.title }}">
+<meta name="twitter:description" content="{{ description or metadata.description }}">
+<meta name="twitter:image" content="{{ cover or metadata.cover }}">
+<link rel="canonical" href="{{metadata.url}}{{page.url}}" />
 <meta content="index, follow" name="robots">
