@@ -1,0 +1,14 @@
+---
+permalink: /tags/
+layout: layouts/base.njk
+title: program restoran tag
+description: tag collection program restoran
+---
+<h1>Tags</h1>
+
+<div class="row">
+{% for tag in collections.all | getAllTags | filterTagList %}
+{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+<div class="col-md-2 p-3"><h3><a href="{{ tagUrl }}" title="{{tag}}">{{ tag }}</a></h3></div>
+{% endfor %}
+</div>
